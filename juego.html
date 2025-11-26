@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dino Kawaii Game</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body class="juego-activo">
+
+
+    <div class="contenedor-juego">
+
+        <div class="info-juego">
+            <p><strong>Puntuación:</strong> <span id="puntajeTotal">0</span></p>
+            <p><strong>Mejor puntaje:</strong> <span id="mejorPuntaje">0</span></p>
+            <p><strong>Instrucciones:</strong> Presiona ESPACIO para saltar</p>
+        </div>
+
+        <canvas id="gameCanvas" width="800" height="300"></canvas>
+
+        <div style="text-align:center">
+            <a href="perfil.html" class="volver-juego">← Volver al perfil</a>
+        </div>
+
+    </div>
+
+    <div class="kawaii-particles">
+    <span style="left:10%">🌸</span>
+    <span style="left:30%">✨</span>
+    <span style="left:50%">💗</span>
+    <span style="left:70%">🌟</span>
+    <span style="left:85%">💞</span>
+</div>
+
+<img src="recursos/melody.png" class="melody-sticker">
+
+    <script src="js/juego.js"></script>
+</body>
+</html>

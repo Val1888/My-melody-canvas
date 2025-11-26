@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil del Jugador</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script defer src="js/perfil.js"></script>
+</head>
+
+<body>
+    <div class="contenedor-formulario">
+
+        <h2 class="titulo">Perfil del Jugador</h2>
+
+        <div class="perfil-avatar">
+            <img id="avatarJugador" src="" alt="Avatar">
+        </div>
+
+        <p class="perfil-nombre"><strong>Usuario:</strong> 
+            <span id="nombreJugador"></span>
+        </p>
+
+        <div class="perfil-datos">
+            <p><strong>Puntaje total:</strong> <span id="puntajeTotal">0</span></p>
+            <p><strong>Partidas jugadas:</strong> <span id="partidasJugadas">0</span></p>
+            <p><strong>Mejor puntaje:</strong> <span id="mejorPuntaje">0</span></p>
+        </div>
+
+        <!-- BOTONES ALINEADOS -->
+        <div class="botones-acciones">
+            <a href="juego.html" class="btn-link">
+                <button type="button">
+                    🎮 Iniciar nueva partida
+                </button>
+            </a>
+
+            
+           <button type="button" id="btnCerrarSesion">
+                ❌ Cerrar sesión
+        </button>
+        </div>
+
+       
+        <a class="link-volver" href="index.html">⬅ Volver al inicio</a>
+
+    </div>
+</body>
+</html>

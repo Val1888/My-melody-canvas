@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+    <div class="contenedor-formulario">
+        <form id="formulario_registro">
+
+            <h2 class="titulo">Crear cuenta</h2>
+
+            <div class="elemento-formulario">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="nombre" placeh lder="Nombre de usuario" required>
+            </div>
+
+            <div class="elemento-formulario">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" name="correo" placeholder="Correo" required>
+            </div>
+
+            <div class="elemento-formulario">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="contraseña" placeholder="Contraseña" required>
+            </div>
+
+            <p class="subtitulo">Elige tu avatar:</p>
+
+            <div class="contenedor-avatares">
+
+                <label class="avatar-opcion">
+                    <input type="radio" name="avatar" value="mymelody.png" required>
+                    <img src="recursos/mymelody.png">
+                </label>
+
+                <label class="avatar-opcion">
+                    <input type="radio" name="avatar" value="pompompurin.png">
+                    <img src="recursos/pompompurin.png">
+                </label>
+
+                <label class="avatar-opcion">
+                    <input type="radio" name="avatar" value="hellokitty.png">
+                    <img src="recursos/hellokitty.png">
+                </label>
+
+                <label class="avatar-opcion">
+                    <input type="radio" name="avatar" value="cinnamon.png">
+                    <img src="recursos/cinnamon.png">
+                </label>
+
+            </div>
+
+          <button id="btn_registro" type="button">
+            <i class="fa-solid fa-user-plus"></i> Crear cuenta
+            </button>
+
+            <a href="index.html" class="link-volver">
+                    <i class="fa-solid fa-right-to-bracket"></i> Volver al inicio
+                </a>
+        </form>
+    </div>
+
+    <script src="js/registro.js"></script>
+</body>
+</html>
